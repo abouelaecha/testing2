@@ -14,7 +14,6 @@ public class test3 {
 
     ;
 
-
     public static int convertirEnSecondes(int minutes) {
         return minutes * 60;
     }
@@ -48,11 +47,12 @@ public class test3 {
 
 
     public static void main(String[] args) {
-//        Testing c1 = new Testing();
-//        int result = c1.somme1(5, 6);
-//        int result2 = c1.difference(8, 5);
-//        System.out.println(result);
-//        System.out.println(result2);
+
+        Testing c1 = new Testing();
+        int result = c1.somme1(5, 6);
+        int result2 = c1.difference(8, 5);
+        System.out.println(result);
+        System.out.println(result2);
 
         System.out.println("***************************");
         int num1 = 20, num2 = 12;
@@ -75,6 +75,7 @@ public class test3 {
         int a = 5, b = 11, c = 9;
         System.out.println("lz maximum est:" + maxDeTrois(a, b, c));
 
+        System.out.println("******************************");
 
     }
 }
