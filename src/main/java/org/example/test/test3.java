@@ -75,6 +75,6 @@ public class test3 {
         int a = 5, b = 11, c = 9;
         System.out.println("lz maximum est:" + maxDeTrois(a, b, c));
 
-        System.out.println("******************************");
+
     }
 }
